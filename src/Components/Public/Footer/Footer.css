@@ -1,0 +1,106 @@
+.body-footer{
+  display: grid;
+  justify-content: center;
+  align-content: end;
+  min-height: 5vh;
+  padding:  10px;
+  width: 100%;
+  background-image: linear-gradient(150deg,#222,#222 50%,#165a18 0,#165a18);
+  
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+}
+footer .container-footer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr 2fr;
+  grid-gap: 40px;
+  
+}
+footer .container-footer .sec h2{
+  position: relative;
+  color: #fffafa;
+  font-weight: 600;
+  margin-bottom: 15px;  
+}
+footer .container-footer .sec p{
+  color: #fcf5f5;
+}
+footer .container-footer .sci{
+  margin-top:20px;
+  display: grid;
+  grid-template-columns: repeat(5,50px);
+  
+}
+footer .container-footer .sci li a{
+  display: inline-block;
+  width: 46px;
+  height: 36px;
+  background-color: #333;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+footer .container-footer .sci li a ion-icon{
+  color: white;
+  font-size: 20px;
+}
+footer .container-footer .quicklinks {
+  position: relative;
+}
+footer .container-footer .quicklinks ul li a{
+  color: #fff2f2;
+  margin-bottom: 10px;
+  display: inline-block;
+  list-style: none;
+}
+
+footer .container-footer .contact .info{
+  position: relative;
+}
+footer .container-footer .contact .info li{
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 16px;
+}
+footer .container-footer .contact .info li span{
+color: #f7e4e4;
+font-size: 20px;
+}
+footer .container-footer .contact .info li a{
+  color: #e9d5d5;
+  }
+@media (max-width:992px) {
+    footer{
+      padding: 40px;
+    }
+    footer .container-footer{
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 20px;
+    }
+    iframe{
+      width: 600px;
+      height: auto;
+      margin: 10px auto;
+    }
+}
+@media (max-width:768px) {
+  footer .container-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+  }
+  iframe{
+    width: 200px;
+    height: auto;
+    margin: 10px auto;
+  }
+}

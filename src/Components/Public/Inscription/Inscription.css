@@ -1,0 +1,61 @@
+.container-inscription{
+  background-image: url('../../../Images/escolta.jpg');
+  min-height: 100vh;
+  width: 100%;
+}
+.inscription{
+  background-color: rgba(213, 210, 210, 0.566);
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.inscription h2{
+  font-size: 3em;
+  color: #070707;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 4px;
+  text-align: left;
+  margin-left: 130px;
+}
+.linea{
+  border-style: solid;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin-bottom: 13px;
+}
+.inscription-texto{
+  padding: 10px 0;
+}
+.inscription-texto p{
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.inscription-texto ul {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  grid-template-columns: 13em 13em 13em 13em;
+  margin: 30px 0 30px 0;
+  list-style: none;
+}
+.inscription-texto ul li p{
+  font-size: 1.4em;
+  margin: 10px;
+  color: #0f4b11
+}
+.p{
+  font-size: 1.5em;
+  color: #000000;
+  font-weight: 100;
+  font-family: 'Anton', sans-serif;
+}
+.p span{
+  font-size: 1.6em;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: 'Anton', sans-serif;
+}

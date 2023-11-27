@@ -1,0 +1,17 @@
+.container-carousel{
+  min-height: 60vh;
+  width: 100%;
+
+}
+.carousel{
+  background-image: url('../../../Images/cbta.png');
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .container-carousel {
+   height: 50vh;
+  }
+}
